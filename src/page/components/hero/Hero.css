@@ -1,0 +1,31 @@
+/* Container do conteúdo do Hero, centraliza itens e define padding */
+.hero-content {
+    padding: 100px 0;
+    width: 100%;
+    min-height: 80vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Título principal do Hero, define cores, tamanho responsivo, peso e centralização */
+.hero-content h1 {
+    margin: 0 0 40px 0;
+    max-width: 720px;
+    color: #fff;
+    font-size: clamp(40px, 9vw, 50px);
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Texto secundário do Hero, define cor, opacidade e centralização */
+.hero-content h2 {
+    font-size: 20px;
+    margin: 0 0 40px 0;
+    text-align: center;
+    color: #fff;
+    opacity: .8;
+}

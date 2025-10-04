@@ -1,0 +1,98 @@
+:root {
+    --pri-green: #00b18b;
+    --sec-green: #00b08a;
+    --pri-blue: #0047b5;
+    --cyan: #00dded;
+    --main-gray: #646464;
+    --white: #fff;
+}
+
+.main-tittle {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: start !important;
+}
+
+.sup-tittle {
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--main-gray);
+    letter-spacing: 2px;
+}
+
+.paragraphs {
+    font-size: 16px;
+    margin: 0 8px 0 16;
+    color: var(--main-gray);
+    font-weight: 500;
+    white-space: pre-line;
+}
+
+.card-tittle {
+    font-weight: 700 !important;
+    font-size: 23px;
+}
+
+.contact-link {
+    padding: 25px 60px;
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: var(--white);
+    font-weight: 600 !important;
+    font-size: 20px;
+    text-decoration: none;
+    font-size: 19px;
+    border-radius: 999px;
+    transition: transform .5s;
+}
+
+.contact-link.recicla {
+    background-image: linear-gradient(to bottom, var(--sec-green), var(--cyan));
+}
+
+.contact-link.tecnologia {
+    background-color: var(--pri-blue);
+}
+
+.contact-link p {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-link:hover {
+    transform: scale(1.06);
+}
+
+.contact-link img {
+    width: 19px;
+}
+
+.hr-default {
+    border: 2px solid;
+    width: 18% !important;
+    opacity: 1 !important;
+}
+
+.default-shadow {
+    box-shadow: -5px 5px 20px -5px rgba(0, 0, 0, .1);
+}
+
+.default-border-radius {
+    border-radius: 10px;
+}
+
+main section:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+main section:nth-child(even) {
+    background-color: #ffffff;
+}

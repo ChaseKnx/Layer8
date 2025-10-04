@@ -1,0 +1,103 @@
+/* Seção principal "Sobre Nós", define espaçamento superior e inferior */
+.about {
+    padding: 50px 0 50px 0;
+}
+
+/* Lado do texto, centraliza e organiza conteúdo em coluna */
+.text-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Lado da imagem, centraliza o conteúdo e adiciona padding */
+.image-side-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Imagem principal da seção, ocupa 100% da largura do container */
+.image-side-about img {
+    width: 100%;
+}
+
+/* Linha horizontal central, centraliza e define margem */
+.center-hr {
+    margin: 40px 0 0 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-tittle {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* Linha de cards, define padding vertical */
+.card-row {
+    padding: 10px 0;
+}
+
+/* Container de cada card, define espaçamento interno */
+.card-container {
+    padding: 40px;
+}
+
+/* Estilo do card, define layout, cor de fundo e alinhamento */
+.card-about {
+    padding: 50px 0 40px 0;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.about-paragraph {
+    text-align: center;
+}
+
+/* Imagem do card, define tamanho e margens */
+.card-about img {
+    width: 35%;
+    margin: 0 0 50px 0;
+}
+
+/* Título do card, centraliza e define tamanho e padding */
+.card-tittle {
+    font-size: 20px !important;
+    text-align: center !important;
+    padding: 0 30px;
+}
+
+/* Parágrafo do card, centraliza e define padding */
+.card-about p {
+    padding: 0 30px;
+}
+
+/* Linha horizontal com espaçamento inferior extra */
+.hr-default.spacing {
+    margin-bottom: 26px !important;
+}
+
+/* Link de contato com espaçamento superior */
+.contact-link.spacing {
+    margin-top: 30px !important;
+}
+
+@media screen and (max-width: 576px) {
+    .text-side .contact-link.spacing {
+        max-width: none;
+        width: 100%;
+    }
+}

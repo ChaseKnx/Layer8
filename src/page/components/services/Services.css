@@ -1,0 +1,55 @@
+/* Seção de serviços, define padding e cor de fundo */
+.services {
+    padding: 80px 0 30px 0;
+}
+
+/* Container dos títulos da seção, centraliza em coluna */
+.service-tittles {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Container dos cards, define padding lateral */
+.cards-container {
+    padding: 0 70px;
+}
+
+@media screen and (max-width: 510px) {
+    .cards-container {
+        padding: 0;
+    }
+}
+
+/* Padding individual para cada coluna de card */
+.card-padding {
+    padding: 70px 30px;
+}
+
+/* Estilo do card de serviço, define cor de fundo, padding, layout e alinhamento */
+.service-card {
+    background-color: #fff;
+    padding: 20px 15px 40px 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+/* Imagem do card, define margens e largura */
+.service-card img {
+    margin: 20px 0 15px 0;
+    width: 90%;
+}
+
+/* Títulos e descrições do card, centralizam texto e definem padding/margem */
+.service-card h3,
+.service-paragraph {
+    padding: 0 15px;
+    margin: 15px 0 0 0;
+    width: 100%;
+    text-align: center;
+}

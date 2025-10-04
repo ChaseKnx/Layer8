@@ -1,0 +1,134 @@
+/* Estilo do footer, define cor de fundo */
+footer {
+    background: #222222;
+}
+
+/* Container do link alternativo, centraliza conteúdo em coluna */
+.alt-site {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Link alternativo, define cores, padding, fonte e borda arredondada */
+.alt-site a {
+    color: #fff;
+    padding: 16px 26px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 999px;
+}
+
+.alt-site p {
+    color: #fff !important;
+}
+
+/* Container do logo do footer, adiciona padding */
+.logo-footer {
+    padding: 40px;
+}
+
+/* Imagem do logo, ocupa 100% da largura */
+.logo-footer img {
+    width: 100%;
+}
+
+/* Container dos links circulares, define layout horizontal e espaçamento */
+.circular-links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container individual de cada ícone, centraliza conteúdo e borda arredondada */
+.icon-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagem dentro do container do ícone, define tamanho */
+.icon-container img {
+    width: 20px;
+    margin-bottom: 2px;
+}
+
+/* Alinhamento do agrupamento do título dos contatos */
+.tittle-grouping {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tittle-grouping h2 {
+    color: #fff !important;
+}
+
+/* Container da seção de contato, centraliza conteúdo em coluna */
+.footer-contact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Grupo de contato */
+.contact-group {
+    margin: 0;
+}
+
+/* Container dos links de contato, organiza em coluna com espaçamento */
+.link-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Cada link de contato, organiza ícone e texto em linha, define cores e fonte */
+.link-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 12px;
+    color: #fff !important;
+    font-weight: 500;
+    text-decoration: 0;
+}
+
+/* Imagem dentro do link de contato, define tamanho */
+.link-icons a img {
+    width: 16px;
+}
+
+/* Área de copyright, centraliza conteúdo e define cor de fundo */
+.copy-area {
+    margin: 40px 0 0 0;
+    padding: 18px 0;
+    background-color: #414549;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Texto dentro da área de copyright, define cor, fonte e tamanho */
+.copy-area p {
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+}

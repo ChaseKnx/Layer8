@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("/fonts/Montserrat/montserrat.ttf");
+    font-display: swap;
+}
+
+/* Aplica estilos globais a todos os elementos */
+* {
+    /* Fonte padrão para todo o site */
+    font-family: "Montserrat", sans-serif;
+
+    /* Inclui padding e border dentro do cálculo de largura/altura */
+    box-sizing: border-box;
+
+    /* Suaviza fontes em Chrome e Safari */
+    -webkit-font-smoothing: antialiased;
+
+    /* Suaviza fontes em Firefox no macOS */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Suavização experimental de fontes */
+    font-smooth: always;
+}
+
+/* Estilo do container raiz do React */
+#root {
+    width: 100vw;
+    /* Largura total da viewport */
+    height: auto;
+    /* Altura automática */
+    scroll-behavior: unset;
+}
+
+/* Evita rolagem horizontal em toda a página */
+html {
+    overflow-x: hidden;
+}

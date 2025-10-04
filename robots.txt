@@ -1,0 +1,5 @@
+# Permite tudo para todos os crawlers
+User-agent: *
+Allow: /?p=
+Disallow:
+

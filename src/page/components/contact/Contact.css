@@ -1,0 +1,69 @@
+/* Seção de contato, define espaçamento superior e inferior */
+.contact {
+    padding: 70px 0;
+}
+
+/* Lado da imagem, centraliza conteúdo com padding */
+.image-side {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagem principal da seção, ocupa 100% da largura do container */
+.image-side img {
+    width: 100%;
+}
+
+/* Lado do formulário, organiza conteúdo em coluna e centraliza verticalmente */
+.form-side {
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+/* Linha horizontal dentro do formulário, define margem */
+.form-side hr {
+    margin: 20px 0 40px 0;
+}
+
+/* Formulário, define largura total, margem e layout em coluna com espaçamento */
+form {
+    width: 100%;
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Campos de input do formulário, define largura, cores, padding e borda arredondada */
+form input {
+    width: 100%;
+    background-color: #ededed;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+/* Botão de envio do formulário, define largura, cores, borda arredondada e padding */
+form button {
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 510px) {
+    .image-side {
+        padding: 30px;
+    }
+
+    .form-side {
+        padding: 10px 30px;
+    }
+}

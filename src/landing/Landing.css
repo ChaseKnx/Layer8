@@ -1,0 +1,152 @@
+.landing {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden auto;
+}
+
+.load-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 0px;
+    border-radius: 0 2px 2px 0;
+    background-image: 
+        linear-gradient(90deg, #00B08A, #004BAD)
+    ;
+    transition: .2s;
+}
+
+.load-bar#load {
+    width: 100% !important;
+}
+
+.landing header {
+    z-index: 2;
+    padding: 40px 0 40px 0;
+    width: 100vw;
+    height: min-content;
+}
+
+.header-content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.header-content h1 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.header-content h1 strong {
+    background: linear-gradient(to right, #00B08A, #004BAD);
+    background-clip: text;
+    text-wrap: nowrap;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+.header-content p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #646464;
+}
+
+.header-content hr {
+    margin: 0px;
+    width: 140px;
+    opacity: 1;
+    border: none;
+    height: 4px;
+    background: linear-gradient(to right, #00B08A, #004BAD);
+    border-radius: 2px;
+}
+
+.landing main {
+    z-index: 1;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    flex-grow: 1;
+}
+
+.landing main section.white-background {
+    background-color: #FFFFFF;
+}
+
+.landing main .side {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing main .side#recicla {
+    background: url("/layer8reciclabg.png");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.landing main .side#tecnologia {
+    background: url("/layer8solucoesbg.png");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+main .button-to {
+    display: flex;
+    width: auto;
+    height: auto;
+    position: relative;
+    bottom: calc(-50% + 80px);
+    border-radius: 999px;
+    border: none;
+    box-shadow: 5px 5px 10px #0003;
+    transition: .4s;
+}
+
+main .button-to:hover {
+    transform: scale(1.02);
+}
+
+main .button-to:active {
+    transition: .1s;
+    transform: scale(1.2);
+}
+
+main .button-to a {
+    box-sizing: border-box;
+    padding: 18px 50px !important;
+    color: #fff;
+    text-decoration: none !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+main .button-to#recicla-btn {
+    background-color: #00B08A;
+}
+
+main .button-to#tecnologia-btn {
+    background-color: #004BAD;
+}
+
+@media screen and (max-width: 510px) {
+    .landing main {
+        padding: 50px 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
