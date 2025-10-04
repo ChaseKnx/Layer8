@@ -7,12 +7,14 @@
     --white: #fff;
 }
 
+/* Títulos principais */
 .main-tittle {
     font-size: 40px;
     font-weight: 700;
     text-align: start !important;
 }
 
+/* Sub-títulos */
 .sup-tittle {
     font-size: 22px;
     font-weight: 400;
@@ -21,6 +23,7 @@
     letter-spacing: 2px;
 }
 
+/* Paragrafos */
 .paragraphs {
     font-size: 16px;
     margin: 0 8px 0 16;
@@ -29,11 +32,13 @@
     white-space: pre-line;
 }
 
+/* Títulos de cards */
 .card-tittle {
     font-weight: 700 !important;
     font-size: 23px;
 }
 
+/* Links de contato */
 .contact-link {
     padding: 25px 60px;
     width: 100%;
@@ -54,10 +59,12 @@
     transition: transform .5s;
 }
 
+/* Estilos de contato da Layer Recicla */
 .contact-link.recicla {
     background-image: linear-gradient(to bottom, var(--sec-green), var(--cyan));
 }
 
+/* Estilos de contato da Layer Sol. e Serv. */
 .contact-link.tecnologia {
     background-color: var(--pri-blue);
 }
