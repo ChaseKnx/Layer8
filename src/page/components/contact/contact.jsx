@@ -43,18 +43,25 @@ function contactSection(mainImage, mainColor, layout) {
                         </p>
 
                         {/* Formulário de contato */}
-                        <form method="POST" action="https://formspree.io/f/xqaybloz">
+                        <form
+                            action="https://formspree.io/f/xqaybloz"
+                            method="POST"
+                        >
                             {/* Campo de nome */}
                             <label className="visually-hidden">Nome</label>
-                            <input type="text" placeholder="Nome" aria-label="Nome" autoComplete="name" />
+                            <input name="name" type="text" placeholder="Nome" aria-label="Nome" autoComplete="name" required />
 
                             {/* Campo de email */}
                             <label className="visually-hidden">Email</label>
-                            <input type="text" placeholder="Email" aria-label="Email" autoComplete="email" />
+                            <input name="email" type="text" placeholder="Email" aria-label="Email" autoComplete="email" />
 
                             {/* Campo de telefone */}
                             <label className="visually-hidden">Telefone</label>
-                            <input type="text" placeholder="Telefone" aria-label="Telefone" autoComplete="tel" />
+                            <input name="tel" type="text" placeholder="Telefone" aria-label="Telefone" autoComplete="tel" required />
+
+                            {/* Campo de assunto */}
+                            <label className="visually-hidden">Assunto</label>
+                            <textarea name="subject" placeholder="Assunto" aria-label="Assunto" maxLength={1000} required></textarea>
 
                             {/* Botão de envio com cor dinâmica */}
                             <button type="submit" style={{ backgroundColor: mainColor }}>Enviar</button>

@@ -40,7 +40,7 @@ form {
 }
 
 /* Campos de input do formulário, define largura, cores, padding e borda arredondada */
-form input {
+form input, form textarea {
     width: 100%;
     background-color: #ededed;
     border: none;
