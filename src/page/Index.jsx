@@ -110,9 +110,10 @@ const pageConf = {
             image: rRepr3,
             color: "#00b18b"
         },
-        locaton: {
+        location: {
             color: "#00b18b",
-            icon: rMarker
+            icon: rMarker,
+            link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.3554605918547!2d-35.19910703046478!3d-5.795939565387442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b301f728df82bf%3A0xb3e55ed372ab1adc!2sLayer%208%20Recicla!5e0!3m2!1spt-BR!2sbr!4v1758914692029!5m2!1spt-BR!2sbr"
         },
         footer: {
             color: "#00b18b",
@@ -221,9 +222,10 @@ const pageConf = {
             image: tRepr2,
             color: "#044bab"
         },
-        locaton: {
+        location: {
             color: "#044bab",
-            icon: tMarker
+            icon: tMarker,
+            link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.4218154016753!2d-35.198456199999995!3d-5.7959434000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b301dc81ebc629%3A0x5c8d34da4c692ecd!2zTGF5ZXIgOCBTb2x1w6fDtWVzIGUgU2VydmnDp29z!5e0!3m2!1spt-BR!2sbr!4v1761224504692!5m2!1spt-BR!2sbr"
         },
         footer: {
             color: "#044bab",
@@ -320,8 +322,9 @@ function Page() {
 
                 {/* ================= LOCATION ================= */}
                 {locationSection(
-                    currentPage.locaton.color,        // Cor de textos e elementos
-                    currentPage.locaton.icon          // Ícone marcador do mapa
+                    currentPage.location.color,        // Cor de textos e elementos
+                    currentPage.location.icon,         // Ícone marcador do mapa
+                    currentPage.location.link
                 )}
             </main>
 
