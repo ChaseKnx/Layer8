@@ -113,7 +113,7 @@ const pageConf = {
         location: {
             color: "#00b18b",
             icon: rMarker,
-            link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.3554605918547!2d-35.19910703046478!3d-5.795939565387442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b301f728df82bf%3A0xb3e55ed372ab1adc!2sLayer%208%20Recicla!5e0!3m2!1spt-BR!2sbr!4v1758914692029!5m2!1spt-BR!2sbr"
+            link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.4218705538788!2d-35.20103822547457!3d-5.79593555718241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b301f728df82bf%3A0xb3e55ed372ab1adc!2sLayer%208%20Recicla!5e0!3m2!1spt-BR!2sbr!4v1761228435377!5m2!1spt-BR!2sbr"
         },
         footer: {
             color: "#00b18b",
