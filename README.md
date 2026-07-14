@@ -5,7 +5,7 @@
 <h1 align="center">Layer8 Website</h1>
 
 <p align="center">
-  Modern institutional website developed for Layer8 using React and SCSS.
+  Modern institutional website developed for Layer8 using React.
 </p>
 
 <p align="center">
@@ -45,7 +45,6 @@ Each URL is directly shareable, allowing visitors to access each section indepen
 - Service cards
 - Contact form
 - SEO-friendly structure
-- Reusable SCSS modules
 
 ---
 
@@ -68,7 +67,6 @@ Each URL is directly shareable, allowing visitors to access each section indepen
 ## 🛠 Technologies
 
 - React
-- SCSS
 - Bootstrap
 - Vite
 - JavaScript
