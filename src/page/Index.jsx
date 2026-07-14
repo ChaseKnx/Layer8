@@ -194,6 +194,11 @@ const pageConf = {
                     image: "",
                     tittle: "Cabling",
                     description: "Organização e padronização a infraestrutura de TI, permite expansão de equipamentos, reduz custos de manutenção e garante alta performance e conectividade estável."
+                },
+                {
+                    image: "",
+                    tittle: "Dataphant",
+                    description: "Solução de backup em nuvem para provedores de internet, protegendo servidores, bancos de dados e informações críticas com armazenamento seguro, recuperação rápida e alta disponibilidade."
                 }
             ],
             classing: "tecnologia",
