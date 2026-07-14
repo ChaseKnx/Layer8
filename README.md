@@ -1,16 +1,115 @@
-# React + Vite
+<p align="center">
+  <img src="./docs/hero.png" alt="Layer8 Website Banner">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">Layer8 Website</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+  Modern institutional website developed for Layer8 using React and SCSS.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white">
+  <img src="https://img.shields.io/badge/SCSS-C76494?logo=sass&logoColor=white">
+  <img src="https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap&logoColor=white">
+  <img src="https://img.shields.io/badge/License-MIT-green">
+</p>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📖 About
 
-## Expanding the ESLint configuration
+Layer8 Website is the official institutional website developed for **Layer8**, a technology company based in Rio Grande do Norte, Brazil.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The project was built as a modern, responsive Single Page Application using React while supporting multiple internal pages through URL query parameters.
+
+Instead of using multiple routes, the application dynamically renders content according to:
+
+```
+?p=landing
+?p=recicla
+?p=tecnologia
+```
+
+Each URL is directly shareable, allowing visitors to access each section independently while keeping the project lightweight and entirely frontend-based.
+
+---
+
+## ✨ Features
+
+- Responsive design
+- Three internal pages
+- Query parameter navigation
+- Fully modular component structure
+- Dynamic page rendering
+- Service cards
+- Contact form
+- SEO-friendly structure
+- Reusable SCSS modules
+
+---
+
+## 🖼 Preview
+
+### Landing
+
+![Landing](./docs/landing.png)
+
+### Tecnologia
+
+![Technology](./docs/hero.png)
+
+### Recicla
+
+![Recycle](./docs/hero_r.png)
+
+---
+
+## 🛠 Technologies
+
+- React
+- SCSS
+- Bootstrap
+- Vite
+- JavaScript
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/ChaseKnx/Layer8.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── assets/
+ ├── landing/
+ ├── page/
+ ├── Reboot.jsx
+ └── App.jsx
+```
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Chase**
