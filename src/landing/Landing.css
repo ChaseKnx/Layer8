@@ -1,9 +1,12 @@
 .landing {
+    background-image: url("/public/landing/background.png");
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     overflow: hidden auto;
+    background-position: center !important;
+    background-size: cover !important;
 }
 
 .load-bar {
@@ -13,9 +16,8 @@
     height: 4px;
     width: 0px;
     border-radius: 0 2px 2px 0;
-    background-image: 
-        linear-gradient(90deg, #00B08A, #004BAD)
-    ;
+    background-image:
+        linear-gradient(90deg, #00B08A, #004BAD);
     transition: .2s;
 }
 
@@ -25,7 +27,7 @@
 
 .landing header {
     z-index: 2;
-    padding: 40px 0 40px 0;
+    padding: 30px 0 0 0;
     width: 100vw;
     height: min-content;
 }
@@ -43,6 +45,7 @@
     font-size: 40px;
     font-weight: 500;
     text-align: center;
+    color: #333;
 }
 
 .header-content h1 strong {
@@ -78,8 +81,8 @@
     flex-grow: 1;
 }
 
-.landing main section.white-background {
-    background-color: #FFFFFF;
+.landing main section {
+    background-color: #FFFFFF00;
 }
 
 .landing main .side {
@@ -89,23 +92,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.landing main .side#recicla {
-    background: url("/layer8reciclabg.png");
     background-position: center;
     background-size: 80%;
     background-repeat: no-repeat;
 }
 
-.landing main .side#tecnologia {
-    background: url("/layer8solucoesbg.png");
-    background-position: center;
-    background-size: 80%;
-    background-repeat: no-repeat;
+.enter-card {
+    border-radius: 20px;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: -5px 5px 10px #0003;
 }
 
 main .button-to {
+    padding: 0px;
     display: flex;
     width: auto;
     height: auto;
@@ -128,7 +132,7 @@ main .button-to:active {
 
 main .button-to a {
     box-sizing: border-box;
-    padding: 18px 50px !important;
+    padding: 12px 50px !important;
     color: #fff;
     text-decoration: none !important;
     font-size: 15px;
@@ -143,10 +147,83 @@ main .button-to#tecnologia-btn {
     background-color: #004BAD;
 }
 
+#recicla {
+    background-image: url("/public/landing/landingrecicla.webp")
+}
+
+#tecnologia {
+    background-image: url("/public/landing/landingsol.webp")
+}
+
+.landing footer {
+    backdrop-filter: blur(20px);
+    background-color: #0005;
+}
+
+.feats {
+    padding: 0 50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.feat {
+    padding: 20px 0 0 0;
+    width: 20%;
+}
+
+.feat h5 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #004BAD;
+}
+
+.feat:first-child h5 {
+    color: #00B08A;
+}
+
+.feat p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.line {
+    width: 1px;
+    height: 60px;
+    background-image: linear-gradient(to bottom, #0000, #0008, #0000);
+}
+
+.landing .rights {
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
 @media screen and (max-width: 510px) {
     .landing main {
         padding: 50px 0;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
+    }
+
+    .landing {
+        height: auto;
+    }
+
+    .feats {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .feat {
+        width: 100%;
+    }
+
+    .line {
+        display: none;
     }
 }
