@@ -105,6 +105,7 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
+    background-position: center top;
     box-shadow: -5px 5px 10px #0003;
 }
 
@@ -156,8 +157,8 @@ main .button-to#tecnologia-btn {
 }
 
 .landing footer {
-    backdrop-filter: blur(20px);
-    background-color: #0005;
+    backdrop-filter: blur(700px);
+    background-color: #0002;
 }
 
 .feats {
@@ -180,7 +181,7 @@ main .button-to#tecnologia-btn {
 }
 
 .feat:first-child h5 {
-    color: #00B08A;
+    color: #105c4b;
 }
 
 .feat p {
@@ -192,7 +193,7 @@ main .button-to#tecnologia-btn {
 .line {
     width: 1px;
     height: 60px;
-    background-image: linear-gradient(to bottom, #0000, #0008, #0000);
+    background-image: linear-gradient(to bottom, #fff0, #fff8, #fff0);
 }
 
 .landing .rights {
@@ -202,7 +203,7 @@ main .button-to#tecnologia-btn {
     font-size: 14px;
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 1024px) {
     .landing main {
         padding: 50px 0;
         grid-template-columns: 1fr;
