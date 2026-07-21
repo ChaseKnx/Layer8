@@ -42,7 +42,7 @@ export default function Landing() {
                 </section>
 
                 {/* Seção Tecnologia */}
-                <section className="side white-background">
+                <section className="side">
                     <div className="enter-card" id="tecnologia">
                         <button
                             className="button-to"

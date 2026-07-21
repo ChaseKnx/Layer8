@@ -1,5 +1,5 @@
 .landing {
-    background-image: url("/public/landing/background.png");
+    background-image: url("/landing/background.png");
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -81,8 +81,8 @@
     flex-grow: 1;
 }
 
-.landing main section {
-    background-color: #FFFFFF00;
+.landing main section.side {
+    background-color: #FFFFFF00 !important;
 }
 
 .landing main .side {
@@ -148,11 +148,11 @@ main .button-to#tecnologia-btn {
 }
 
 #recicla {
-    background-image: url("/public/landing/landingrecicla.webp")
+    background-image: url("/landing/landingrecicla.webp")
 }
 
 #tecnologia {
-    background-image: url("/public/landing/landingsol.webp")
+    background-image: url("/landing/landingsol.webp")
 }
 
 .landing footer {
